@@ -1,7 +1,7 @@
 # Dissertation_Project
 ROS - Shimmer3 Project
 
-- This project has been implemented for my dissertation 
+This project has been implemented for my dissertation 
 
 There are a couple of dependencies, and you will require them to run 
 this project.
