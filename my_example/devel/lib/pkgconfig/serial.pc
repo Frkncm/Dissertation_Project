@@ -1,0 +1,8 @@
+prefix=/home/furkan/Workspaces/my_example/devel
+
+Name: serial
+Description: Description of serial
+Version: 1.2.1
+Cflags: -I/home/furkan/Workspaces/my_example/src/serial/include
+Libs: -L${prefix}/lib -lserial -lrt -lpthread
+Requires: 

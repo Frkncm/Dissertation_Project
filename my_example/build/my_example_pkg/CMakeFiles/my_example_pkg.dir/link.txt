@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libmy_example_pkg.so -o /home/furkan/Workspaces/my_example/devel/lib/libmy_example_pkg.so CMakeFiles/my_example_pkg.dir/home/furkan/serial/src/serial.cc.o 

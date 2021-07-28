@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/furkan/serial/src/serial.cc
+algorithm
+-
+alloca.h
+-
+serial/serial.h
+/home/furkan/serial/src/serial/serial.h
+serial/impl/win.h
+/home/furkan/serial/src/serial/impl/win.h
+serial/impl/unix.h
+/home/furkan/serial/src/serial/impl/unix.h
+

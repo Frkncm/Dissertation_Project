@@ -1,0 +1,2 @@
+my_example_pkg
+-DCATKIN_DEVEL_PREFIX=/home/furkan/Dissertation_Project/my_example/devel -DCMAKE_INSTALL_PREFIX=/home/furkan/Dissertation_Project/my_example/install -G Unix Makefiles

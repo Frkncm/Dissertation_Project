@@ -1,0 +1,5 @@
+<launch>
+<param name="rpm_val" value="0.125" type="double"/>
+<node name="robot_controller" pkg ="my_example_pkg" type="robot_controller"/>
+<node name="shimmer_publisher" pkg="my_example_pkg" type="publisher" args="/dev/rfcomm0"/>
+</launch> 

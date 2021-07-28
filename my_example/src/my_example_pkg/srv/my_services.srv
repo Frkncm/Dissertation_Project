@@ -1,0 +1,4 @@
+#First parameters above the line will be request and second one will be return messages
+int32 number
+---
+string answer

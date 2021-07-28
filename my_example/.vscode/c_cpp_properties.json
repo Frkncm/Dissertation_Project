@@ -1,0 +1,19 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/furkan/Workspaces/my_example/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/furkan/Workspaces/my_example/src/my_example_pkg/include/**",
+        "/home/furkan/Workspaces/my_example/src/serial/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

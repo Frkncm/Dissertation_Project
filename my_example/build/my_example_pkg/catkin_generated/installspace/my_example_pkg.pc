@@ -1,0 +1,8 @@
+prefix=/home/furkan/Dissertation_Project/my_example/install
+
+Name: my_example_pkg
+Description: Description of my_example_pkg
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lqt_ros
+Requires: roscpp geometry_msgs gazebo_ros
