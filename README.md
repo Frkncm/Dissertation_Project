@@ -35,6 +35,12 @@ Please install the following dependencies:
     
   - To check whether the intended port has been opened or not, please simply type *rfcomm* command on the terminal. This should show you the related port with the settled parameters.
   
+  - After opening the new port between Shimmer3 and Linux environment, we need to give a permission to the opened port by using the command follow(The same **port_number** needs to be put as we did above, for example **rfcomm0**):
+    
+    *sudo chmod a+rw /dev/rfcomm(**port_number**)*
+    
+  - Now we can run the **Publisher** node
+  
    
   
 
