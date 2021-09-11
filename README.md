@@ -47,7 +47,7 @@ Please install the following dependencies:
   
     *rosrun my_example_pkg robot_controller*
     
-  - The **stress_detection.py** python script is run separately on VScode environment (you are free to use it your own IDE)
+  - The **stress_detection.py** python script runs separately on the VScode environment (you can use it your own IDE). Please be aware that the python script has its library dependencies. You should install all of them before running the node.
   
    
   
