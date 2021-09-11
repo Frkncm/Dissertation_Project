@@ -49,7 +49,10 @@ Please install the following dependencies:
     
   - The **stress_detection.py** python script can be found under the *dissertation_project/my_example/src/my_example_pkg/src/*, and it runs separately on the VScode environment (you can use it in your favourite IDE). Please be aware that the python script has its library dependencies. You should install all of them before running the node.
   
-   
+
+Example images from the project:
+
+![plot](./images/gazebo_example_image.png)
   
 
 The Gazebo simulation utilized during the experiment can be found following link:
