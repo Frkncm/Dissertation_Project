@@ -15,11 +15,11 @@ Please install the following dependencies:
 How to install:
   After installing related dependecities, get the "my_example" directory and source the ROS files by typing:
   
-  source devel/setup.bash
+  *source devel/setup.bash
   
   Then, the ROS files need to be built by using the following command:
   
-  catkin_make
+  *catkin_make
   
   After making the project succesfully we can run the ROS nodes
   
