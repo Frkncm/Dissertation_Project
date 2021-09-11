@@ -1,7 +1,7 @@
 # REMOTE ROBOT CONTROL MECHANISM USING A PHYSIOLOGICAL SENSOR
 ROS - Shimmer3 Project
 
-This dissertation project has been implemented for University of Bristol MSc Robotics Dissertation module under 
+This project has been implemented for University of Bristol MSc Robotics Dissertation module under 
 the supervision of Alex Smith and Anouk Van Maris. 
 
 There are a couple of dependencies, and you will require them to run 
