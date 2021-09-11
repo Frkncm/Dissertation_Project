@@ -65,7 +65,7 @@ This file is created to analyse and train the SVM and KNN models. You can find a
 
 *https://archive.ics.uci.edu/ml/datasets/WESAD+%28Wearable+Stress+and+Affect+Detection%29*
 
-Alternatively, for directly downloading it:
+Alternatively, to directly download it:
 
 *https://uni-siegen.sciebo.de/s/HGdUkoNlW1Ub0Gx*
 
