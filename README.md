@@ -1,4 +1,4 @@
-# Dissertation_Project
+# REMOTE ROBOT CONTROL MECHANISM USING A PHYSIOLOGICAL SENSOR - ROS Implementations
 ROS - Shimmer3 Project
 
 This project has been implemented for University of Bristol MSc Robotics Dissertation module under 
@@ -12,7 +12,7 @@ Please install the following dependencies:
 - https://github.com/dpkoch/async_comm
 
 
-**How to install:**
+**How to install the project**
 
   After installing related dependecities, get the "my_example" directory and source the ROS files by typing:
   
