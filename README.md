@@ -59,4 +59,6 @@ The Gazebo simulation utilized during the experiment can be found following the 
 *https://github.com/Frkncm/Gazebo_design*
 
 
+**Regarding WESAD_analysis_and_ML.ipynb file**
+This file is created to analyse and train the SVM and KNN models. You can find all the code steps, but to run it, you will need to download WESAD dataset that can be found from the *https://archive.ics.uci.edu/ml/datasets/WESAD+%28Wearable+Stress+and+Affect+Detection%29* link. 
 
