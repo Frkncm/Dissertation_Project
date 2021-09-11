@@ -1,4 +1,4 @@
-# REMOTE ROBOT CONTROL MECHANISM USING A PHYSIOLOGICAL SENSOR
+# REMOTE ROBOT CONTROL MECHANISM USING A PHYSIOLOGICAL SENSOR - ROS Implementations
 ROS - Shimmer3 Project
 
 This project has been implemented for University of Bristol MSc Robotics Dissertation module under 
