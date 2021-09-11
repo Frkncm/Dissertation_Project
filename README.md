@@ -22,7 +22,7 @@ Please install the following dependencies:
   
   *catkin_make*
   
-  After successfully making the project, we can run the ROS nodes using the *rosrun* command. However, the com port needs to be configured in Linux environment for the Bluetooth setup before running the **publisher** node. The following steps will set the comport on linux environment.
+  After successfully making the project, we can run the ROS nodes using the *rosrun* command. However, the com port needs to be configured in Linux environment for the Bluetooth setup before running the **publisher** node. The following steps will set the com port on linux environment.
   - At first, we need to find the shimmer3 MAC address by searching via the Blueooth (Please be ensure the Shimmer3 is open). So, the following command can be used on terminal to find the possible Bluetooth devices.
   
     *hcitool scan*
