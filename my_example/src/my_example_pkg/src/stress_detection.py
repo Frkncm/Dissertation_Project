@@ -227,9 +227,9 @@ def signal_processing_and_reservoir_computing(data=None, model=None, pub=None):
         eda = butter_lowpass_filter(eda, 1, 64, order=4)
         # Applying NeuroKit2 on EDA
         signal, process = nk.eda_process(eda, sampling_rate=64)
-        scr = signal['EDA_Phasic'].to_numpy()
+        scr = signal['EDA_Phasic'].to_numpy() #EDA phasic is filtered EDA signal
         scr = scr.reshape((scr.shape[0], 1))
-        scl = signal['EDA_Tonic'].to_numpy()
+        scl = signal['EDA_Tonic'].to_numpy()  #EDA Tonic is EDA signal 
         scl = scl.reshape((scl.shape[0], 1))
 
         hr = np.array(hr).reshape((len(hr), 1))

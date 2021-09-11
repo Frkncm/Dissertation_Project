@@ -9,10 +9,10 @@
 
 // Filter declerations
 using vector_cast = std::vector<double>;
-constexpr double LPF_CORNER_FREQ_HZ = 2.2;
-constexpr double HPF_CORNER_FREQ_HZ = 0.65;
-Shimmer3::Filter LPF_PPG(Shimmer3::LOW_PASS, SHIMER_SAMPLE_RATE, vector_cast{LPF_CORNER_FREQ_HZ});
-Shimmer3::Filter HPF_PPG(Shimmer3::HIGH_PASS, SHIMER_SAMPLE_RATE, vector_cast{HPF_CORNER_FREQ_HZ});
+// constexpr double LPF_CORNER_FREQ_HZ = 2.2;
+// constexpr double HPF_CORNER_FREQ_HZ = 0.65;
+// Shimmer3::Filter LPF_PPG(Shimmer3::LOW_PASS, SHIMER_SAMPLE_RATE, vector_cast{LPF_CORNER_FREQ_HZ});
+// Shimmer3::Filter HPF_PPG(Shimmer3::HIGH_PASS, SHIMER_SAMPLE_RATE, vector_cast{HPF_CORNER_FREQ_HZ});
 
 bool wait_serial_responce = false;
 bool setup_mode = true;
