@@ -53,7 +53,6 @@ Please install the following dependencies:
 **Example images from the project**
 
 ![plot](./images/gazebo_ros_exp.png)  ![plot](./images/whole_path.png)
-  
 
 The Gazebo simulation utilized during the experiment can be found following the link:
 
