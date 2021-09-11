@@ -41,7 +41,7 @@ Please install the following dependencies:
     
   - Now we can run the **publisher** node as follows:
     
-    *rosrun my_example_pkg publisher*
+    *rosrun my_example_pkg publisher /dev/rfcomm(**port_number**)*
     
   - The **robot_controller** node can also be run using the same command:
   
