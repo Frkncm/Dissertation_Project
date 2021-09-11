@@ -52,7 +52,7 @@ Please install the following dependencies:
 
 **Example images from the project**
 
-![plot](./images/gazebo_example_image.png)
+![plot](./images/Screenshot from 2021-08-31 14-14-23.png)
   
 
 The Gazebo simulation utilized during the experiment can be found following the link:
