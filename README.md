@@ -22,7 +22,7 @@ Please install the following dependencies:
   
   *catkin_make*
   
-  After successfully making the project, we can run the ROS nodes using the *rosrun* command. However, the com port needs to be configured in Linux environment for the Bluetooth setup before running the *publisher* node. The following steps will set the comport on linux environment.
+  After successfully making the project, we can run the ROS nodes using the *rosrun* command. However, the com port needs to be configured in Linux environment for the Bluetooth setup before running the **publisher** node. The following steps will set the comport on linux environment.
   - At first, we need to find the shimmer3 MAC address by searching via the Blueooth (Please be ensure the Shimmer3 is open). So, the following command can be used on terminal to find the possible Bluetooth devices.
   
     *hcitool scan*
@@ -35,11 +35,19 @@ Please install the following dependencies:
     
   - To check whether the intended port has been opened or not, please simply type *rfcomm* command on the terminal. This should show you the related port with the settled parameters.
   
-  - After opening the new port between Shimmer3 and Linux environment, we need to give a permission to the opened port by using the command follow(The same **port_number** needs to be put as we did above, for example **rfcomm0**):
+  - After opening the new port between Shimmer3 and Linux environment, we need to give permission to the opened port by using the command follow(The same **port_number** needs to be put as we did above, for example, **rfcomm0**):
     
     *sudo chmod a+rw /dev/rfcomm(**port_number**)*
     
-  - Now we can run the **Publisher** node
+  - Now we can run the **publisher** node as follows:
+    
+    *rosrun my_example_pkg publisher*
+    
+  - The **robot_controller** node can also be run using the same command:
+  
+    *rosrun my_example_pkg robot_controller*
+    
+  - The **stress_detection.py** python script is run separately on VScode environment (you are free to use it your own IDE)
   
    
   
