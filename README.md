@@ -12,7 +12,7 @@ Please install the following dependencies:
 - https://github.com/dpkoch/async_comm
 
 
-**How to install:**
+**How to install the project**
 
   After installing related dependecities, get the "my_example" directory and source the ROS files by typing:
   
