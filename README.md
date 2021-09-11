@@ -12,7 +12,8 @@ Please install the following dependencies:
 - https://github.com/dpkoch/async_comm
 
 
-How to install:
+**How to install:**
+
   After installing related dependecities, get the "my_example" directory and source the ROS files by typing:
   
   *source devel/setup.bash*
@@ -21,7 +22,20 @@ How to install:
   
   *catkin_make*
   
-  After making the project succesfully we can run the ROS nodes
+  After successfully making the project, we can run the ROS nodes using the *rosrun* command. However, the com port needs to be configured in Linux environment for the Bluetooth setup before running the *publisher* node. The following steps will set the comport on linux environment.
+  - At first, we need to find the shimmer3 MAC address by searching via the Blueooth (Please be ensure the Shimmer3 is open). So, the following command can be used on terminal to find the possible Bluetooth devices.
+  
+    *hcitool scan*
+    
+    This command will search all the Bluetooth devices with their MAC address around. After finding the shimmer3, copy the corresponding MAC address to open a new port.
+    
+  - After coying the MAC address, the following code will open a new port between Shimmer3 and Linux environment. The **port_numer** can be selected any, but if there is no port opened, we can set it simply 0. 
+  
+    *sudo rfcomm bind **port_number** **MAC_address***
+    
+  - To check whether the intended port has been opened or not, please simply type *rfcomm* command on the terminal. This should show you the related port with the settled parameters.
+  
+   
   
 
 The Gazebo simulation utilized during the experiment can be found following link:
