@@ -11,3 +11,9 @@ Please install the following dependencies
 
 - https://github.com/dpkoch/async_comm
 ...(will be updated)
+
+The Gazebo simulation utilized during the experiment can be found following link:
+https://github.com/Frkncm/Gazebo_design
+
+
+
